@@ -1,0 +1,73 @@
+Project Booking Vue 3
+
+Landing page & booking system untuk produk rental (contoh: kamera), dibangun dengan Vue 3, Tailwind CSS, Vue Router, dan Pinia / LocalStorage.
+Fitur: daftar produk, detail produk, add to project, booking, kwitansi multi-product, dan availability check.
+
+🛠️ Teknologi
+
+Vue 3
+ – Frontend framework
+
+Tailwind CSS
+ – Utility-first CSS framework
+
+Vue Router
+ – Routing SPA
+
+Pinia
+ / LocalStorage – State management
+
+SweetAlert2
+ – Popup & alert
+
+
+⚡ Fitur Utama
+
+Product List
+
+Filter berdasarkan nama & max price
+
+Pagination
+
+Navigasi ke detail produk
+
+Product Detail
+
+Thumbnail & main image
+
+Price chart modal
+
+Availability check (merah, kuning, hijau)
+
+Add to Project / Book Now
+
+Prevent double booking untuk produk sama
+
+Add to Project
+
+Menyimpan banyak produk ke projectItems di localStorage
+
+Bisa hapus produk satu per satu atau kosongkan project
+
+Menampilkan total harga semua produk
+
+Checkout / Kwitansi Multi-Product
+
+Tabel semua produk di project
+
+Gambar, nama, harga / day, days, pickup, subtotal
+
+Total semua
+
+Bisa dicetak / dibuka di tab baru
+
+
+npm install
+# atau pakai yarn
+# yarn install
+
+npm run dev
+# atau yarn dev
+
+npm run build
+# atau yarn build
